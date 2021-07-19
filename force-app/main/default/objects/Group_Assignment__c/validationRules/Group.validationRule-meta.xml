@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group</fullName>
+    <active>true</active>
+    <description>github Task: https://github.com/nikunjjain-encureit/ums/issues/2#issue-946972790
+Description: Group is required for job function</description>
+    <errorConditionFormula>ISBLANK( Group__c )</errorConditionFormula>
+    <errorMessage>Group is mandatory to save the record</errorMessage>
+</ValidationRule>

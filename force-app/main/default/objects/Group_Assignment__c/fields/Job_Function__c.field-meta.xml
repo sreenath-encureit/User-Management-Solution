@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Function__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>github Task: https://github.com/nikunjjain-encureit/ums/issues/2#issue-946972790
+Description: job function to be linked to group assignment</description>
+    <externalId>false</externalId>
+    <label>Job Function</label>
+    <referenceTo>Job_Function__c</referenceTo>
+    <relationshipLabel>Group Assignments</relationshipLabel>
+    <relationshipName>Group_Assignments</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
